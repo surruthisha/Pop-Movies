@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Movies Merch Store - Order Summary</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    /* Your existing CSS styles here */
+
+    /* Additional styles for the form page */
+    .form-container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+      padding: 20px;
+    }
+
+    .form-container h2 {
+      margin-bottom: 10px;
+    }
+
+    .form-container label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="number"],
+    .form-container input[type="email"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    .form-container button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .form-container .popup {
+      display: inline-block;
+      position: relative;
+    }
+
+    .form-container .popup-content {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      top: 20px;
+      left: 0;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      padding: 10px;
+    }
+
+    .form-container .popup:hover .popup-content {
+      display: block;
+    }
+  </style>
+    
+</head>
+<body data-theme="dark">
+  <div class="topnav" id="myTopnav">
+        <a class="topnav-logo" href="../index.html">
+            <img style="max-height: 80px; padding: 0;" alt="logo" src= "../nav_bar_logo.png"></a>
+        <a href="../../Student_2/homepage and feedback/Home.html">Home</a>
+        <a href="../../Student_2/homepage and feedback/Feedback.html">Feedback</a>
+        <a href="../shop/shop.html">Shop</a>
+        <a href="../../Student_3/Quiz_details.html">Quiz</a>
+        <a href="../../Student_4/Sitemap.html">Site Map</a>  
+        <a href="../../Student_4/gallery.html">Gallery</a>
+        <a href="../../Student_3/About_Us.html">About Us</a>    
+        <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+        <i class="fa fa-bars"></i>
+        </a>
+	</div>
+    <div class="background">
+        <!--go to top-->
+        <button onclick="topFunction()" id="toTopBtn" title="Go to top">&#129093;</button>
+      <div class="container">
+          <div class="form-container">
+              <h2>Payment</h2>
+              <h2 style="margin-top: 20px;">Payment Details</h2>
+              <form>
+                  <label for="cardNumber">Card Number:</label>
+                  <input type="text" id="cardNumber" required>
+                  
+                  <label for="cardholderName">Cardholder Name:</label>
+                  <input type="text" id="cardholderName" required>
+                  
+                  <label for="expireDate">Expire Date:</label>
+                  <input type="text" id="expireDate" required>
+                  
+                  <label for="securityCode">Security Code:</label>
+                  <input type="text" id="securityCode" required>
+                  
+                  <h3 style="margin-top: 20px;">Billing Address</h3>
+                  <label for="address1">Address 1:</label>
+                  <input type="text" id="address1" required>
+                  
+                  <label for="address2">Address 2:</label>
+                  <input type="text" id="address2">
+                  
+                  <label for="address3">Address 3:</label>
+                  <input type="text" id="address3">
+                  
+                  <label for="city">City/Town:</label>
+                  <input type="text" id="city" required>
+                  
+                  <label for="state">State/Region:</label>
+                  <input type="text" id="state" required>
+                  
+                  <label for="postcode">Post Code/Zip Code:</label>
+                  <input type="text" id="postcode" required>
+                  
+                  <label for="country">Country:</label>
+                  <input type="text" id="country" required>
+                                    
+                  <h3 style="margin-top: 20px;">Contact Details</h3>
+                  <label for="phone">Phone Number:</label>
+                  <input type="text" id="phone" required>
+                  
+                  <label for="email">Email Address:</label>
+                  <input type="email" id="email" required>
+                  
+                  <button type="submit">Make Payment</button>
+              </form>
+              
+            </div>
+      </div>
+        <footer>
+        <!--footer-->
+        <p>&copy; Copyright 2023, IIT | Page Editor: <a style="text-decoration: none; color: #9B2323;" href="../page_editor.html">Student 1</a></p>
+    </footer>
+    </div>
+    <!-- Theme switcher -->
+    <div class="theme-switcher">
+        <input class="input-theme" type="radio" id="switcher-light" name="theme-switcher" value="light" checked>
+        <label class="theme-label" for="switcher-light">Light</label>
+        <input  class="input-theme" type="radio" id="switcher-dark" name="theme-switcher" value="dark">
+        <label class="theme-label" for="switcher-dark">Dark</label>
+        <input  class="input-theme" type="radio" id="switcher-colorful" name="theme-switcher" value="colorful">
+        <label class="theme-label" for="switcher-colorful">Colorful</label>
+        <input  class="input-theme" type="radio" id="switcher-random" name="theme-switcher" value="random">
+        <label class="theme-label" for="switcher-random">Random</label>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Notebook</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body data-theme="light">
+    <div class="topnav" id="myTopnav">
+        <a class="topnav-logo" href="../index.html">
+            <img style="max-height: 80px; padding: 0;" alt="logo" src= "../nav_bar_logo.png"></a>
+        <a href="../../Student_2/homepage and feedback/Home.html">Home</a>
+        <a href="../../Student_2/homepage and feedback/Feedback.html">Feedback</a>
+        <a href="../shop/shop.html">Shop</a>
+        <a href="../../Student_3/Quiz_details.html">Quiz</a>
+        <a href="../../Student_4/Sitemap.html">Site Map</a>  
+        <a href="../../Student_4/gallery.html">Gallery</a>
+        <a href="../../Student_3/About_Us.html">About Us</a>    
+        <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+        <i class="fa fa-bars"></i>
+        </a>
+	</div>
+    <div class="background">
+        <!--go to top-->
+        <button onclick="topFunction()" id="toTopBtn" title="Go to top">&#129093;</button>
+        <!--main container-->
+         <div class="container">
+             <!--main heading-->
+             <h1>The Notebook</h1>
+             <!--responsive main image-->
+             <picture class="main-image">
+                <source srcset="img/LOTR/LOTR_m.png" media="(max-width: 900px)">
+                <img class="main-image" src="wall.jpeg" alt="notebook poster">
+             </picture>
+             <!--class parah for paragraph-->
+             <div class="parah"><br>&nbsp;&nbsp;&nbsp;&nbsp; "The Notebook," a cinematic masterpiece that has touched the souls of countless viewers around the globe.
+
+                Within the ethereal pages of this  film, we are transported to a bygone era, where love knows no boundaries and passion conquers all. 
+                 <!--tooltip main container-->
+                 <wow-tooltip class="tooltip">
+                     <!--tooltip text container-->
+                     <div class="tooltip__label" aria-describedby="tooltip-demo-content" data-tooltip-placeholder></div> 
+                     <!--tooltip-->
+                     <div class="tooltip-dropdown" data-tooltip-dropdown> 
+                         <!--content inside tooltip-->
+                         <div role="tooltip" id="tooltip-demo-content" class="tooltip-dropdown__content">
+                             <!--tooltip image min height should be 400px. class if only needed-->
+                             <img class="tooltip-img" src="leonardo.jpeg" alt="Leonardo DiCaprio">
+                             <!--tooltip content-->
+                             &nbsp;&nbsp;&nbsp;&nbsp; 
+                         </div>
+                     </div>
+                 </wow-tooltip>Adapted from the heartwarming novel by Nicholas Sparks, "The Notebook" weaves a tale of love's enduring power, entwining destiny, and the undeniable magic of fate.
+                
+                 Prepare to be captivated by a love story that spans generations, as we follow the lives of two soulmates, Noah and Allie, whose paths collide in a breathtaking romance that transcends time. As the pages of their lives unfold before us, we witness the exhilarating highs and heart-wrenching lows of their love, which stand as a testament to the resilience of the human heart.With its beautiful cinematography and a soundtrack that tugs at your heartstrings, "The Notebook" has all the elements of a memorable movie experience. Whether you're a fan of romantic dramas or just in the mood for a touching story, this film is a must-watch.
+             </div>
+             <!--list using an image as the bullet-->
+             <ul style="list-style-image: url(img/POTC/logo.png);">
+                 <li>Directed by  - Directed by: Nick Cassavetes</li>
+                 <li>Based on: The novel "The Notebook" by Nicholas Sparks</li>
+                 <li>Produced by: Mark Johnson, Lynn Harris</li>
+                 <li>Distributed by: New Line Cinema</li>
+                 <li>Budget: Approximately $30 million USD</li>
+                 <li> Worldwide Box Office Gross: Approximately $115 million USD</li>
+             </ul>
+             <h2>Awards won </h2>
+             <!--list an image as the bullet with anchors inside to jump to topic-->
+             <ul style="list-style-image: url(img/POTC/logo.png);">
+                 <li>Best Kiss: Ryan Gosling and Rachel McAdams (won)</li>
+                 <li>Choice Movie Actor: Drama/Action Adventure - Ryan Gosling (won)</li>
+                 <li>Choice Movie Actress: Drama/Action Adventure - Rachel McAdams (won)</li>
+                 <li>Best Original Song: "The Notebook Main Title" by Aaron Zigman (won)</li>
+             </ul>
+             <br>
+             <h3>Main Cast</h3>
+             <div id="demo">
+                <div class="container-owl">
+                    <div class="row">
+                        <div class="span12">
+                            <div id="owl-demo" class="cast-carousal">
+                                <div class="item">
+                                    <div class="cast"> 
+                                        <img src="ryan.png" alt="ryan gosling" width="150">
+                                        <p class="cast-p">Ryan Gosling</p>
+                                        <div class="cast-chara">Noah calhoun</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="cast"> 
+                                        <img src="rach.png" alt="kate" width="150">
+                                        <p class="cast-p">Rachel Mcadams</p>
+                                        <div class="cast-chara">Allie Hamilton</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="cast"> 
+                                        <img src="james.png" alt="james" width="150">
+                                        <p class="cast-p">James Garner</p>
+                                        <div class="cast-chara">Noah</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="cast"> 
+                                        <img src="gena.png" alt="Billy zane" width="150">
+                                        <p class="cast-p">Gena Rowland</p>
+                                        <div class="cast-chara">Old Allie</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="cast"> 
+                                        <img src="joan.png" alt="joan" width="150">
+                                        <p class="cast-p">Joan Allen</p>
+                                        <div class="cast-chara">Anne Hamilton</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="customNavigation">
+                                <a class="btn prev">Previous</a>
+                                <a class="btn next">Next</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <br>
+             <h2>Main plot</h2>
+             <img class="sub-image" src= "notebokie.jpeg" alt="pic">
+             <div class="parah"><br>&nbsp;&nbsp;&nbsp;&nbsp;"The Notebook" follows the captivating love story of Noah Calhoun and Allie Nelson, two young people from different social backgrounds who fall deeply in love one summer. Their passionate romance encounters opposition from Allie's upper-class parents, leading to their separation. Despite the odds, Noah's unwavering devotion and heartfelt letters keep the memory of their love alive.</div>
+             <div class="parah">&nbsp;&nbsp;&nbsp;&nbsp; Years later, fate reunites Noah and Allie, but they must grapple with the complexities of the past and the choices that have shaped their lives. As they revisit their shared memories, the power of their love resurfaces, igniting a heartrending journey of rediscovery and reconciliation. "The Notebook" weaves a tender and emotional narrative of enduring love that transcends time, reminding audiences of the timeless beauty of true romance.</div>
+             <br><br><br><br>
+             <!--heading-->
+             <h2>Behind the scenes</h2>
+             <!--image class sub image-->
+             <img class="sub-image" src= "noteeee.jpeg" alt="Behind the scenes">
+             <!--content-->
+             <div class="parah"><br>&nbsp;&nbsp;&nbsp;&nbsp; Behind the scenes of "The Notebook," the 2004 romantic drama film based on Nicholas Sparks' novel, offered fascinating insights into the making of this emotional cinematic journey. Director Nick Cassavetes skillfully crafted a world that blended the past and present, focusing on capturing raw emotions and intimate moments between the characters. The casting process played a crucial role in bringing the characters of Noah and Allie to life, with Ryan Gosling and Rachel McAdams delivering powerful performances that brought their passionate love story to the forefront.</div>
+             <div class="parah">&nbsp;&nbsp;&nbsp;&nbsp;The film's authentic period feel was achieved through careful location selection in South Carolina, which perfectly complemented the nostalgic ambiance of the story. Makeup artists expertly aged the actors to convincingly portray the characters' aging over several decades. The movie's impact on pop culture is undeniable, as it quickly became a beloved classic, cherished for its genuine portrayal of enduring love and powerful storytelling. From the director's vision to the meticulous attention to detail, "The Notebook" stands as a testament to the dedication of the cast and crew in bringing this beautiful love story to life on the silver screen.</div>
+             <!--Did You Know facts-->
+             <h2>DID YOU KNOW?</h2>
+             <div class="parah"><br>&nbsp;&nbsp;&nbsp;&nbsp;"The Notebook" is based on the novel of the same name by Nicholas Sparks, who was inspired by the real-life love story of his wife's grandparents.</div>
+             <div class="parah">&nbsp;&nbsp;&nbsp;&nbsp;The beautiful house featured in the film, known as the "Waverley Mansion," is a real historic home located in the Windsor Plantation near Jackson, Mississippi. It provided the perfect backdrop for many scenes in the movie.</div>
+             <div class="parah">&nbsp;&nbsp;&nbsp;&nbsp; The famous rain scene, where Noah and Allie passionately kiss in the pouring rain, was not originally scripted. Ryan Gosling suggested the idea, and the crew decided to film it spontaneously, resulting in one of the movie's most iconic and memorable moments. </div>
+                   
+             <!--name-->
+             <p style="text-align: right; font-weight: bold; padding: inherit;">Article by,<br><a style="text-decoration: none; color: #9B2323;" href="../page_editor.html">Surruthisha Sundareswaran</a></p>
+    </div>
+    <footer>
+        <!--footer-->
+        <p>&copy; Copyright 2023, IIT | Page Editor: <a style="text-decoration: none; color: #9B2323;" href="../page_editor.html">Student 1</a></p>
+    </footer>
+    </div>
+    <!-- Theme switcher -->
+    <div class="theme-switcher">
+        <input class="input-theme" type="radio" id="switcher-light" name="theme-switcher" value="light" checked>
+        <label class="theme-label" for="switcher-light">Light</label>
+        <input  class="input-theme" type="radio" id="switcher-dark" name="theme-switcher" value="dark">
+        <label class="theme-label" for="switcher-dark">Dark</label>
+        <input  class="input-theme" type="radio" id="switcher-colorful" name="theme-switcher" value="colorful">
+        <label class="theme-label" for="switcher-colorful">Colorful</label>
+        <input  class="input-theme" type="radio" id="switcher-random" name="theme-switcher" value="random">
+        <label class="theme-label" for="switcher-random">Random</label>
+    </div>
+    <script src="owlCarousal/jquery-1.9.1.min.js"></script> 
+    <script src="owlCarousal/owl.carousel.js"></script>
+    <script src="script.js"></script> 
+    <script>
+        $(document).ready(function() {
+          var owl = $("#owl-demo");
+          owl.owlCarousel({
+          items : 7, 
+          itemsDesktop : [1500,5], 
+          itemsDesktopSmall : [900,3], 
+          itemsTablet: [600,2], 
+          itemsMobile : [410,1]
+
+          });
+
+          // Custom Navigation Events
+          $(".next").click(function(){
+            owl.trigger('owl.next');
+          })
+          $(".prev").click(function(){
+            owl.trigger('owl.prev');
+          })
+          $(".play").click(function(){
+            owl.trigger('owl.play',1000);
+          })
+          $(".stop").click(function(){
+            owl.trigger('owl.stop');
+          })
+
+
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La la land</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body data-theme="light">
+    <div class="topnav" id="myTopnav">
+        <a class="topnav-logo" href="../index.html">
+            <img style="max-height: 80px; padding: 0;" alt="logo" src= "../nav_bar_logo.png"></a>
+        <a href="../../Student_2/homepage and feedback/Home.html">Home</a>
+        <a href="../../Student_2/homepage and feedback/Feedback.html">Feedback</a>
+        <a href="../shop/shop.html">Shop</a>
+        <a href="../../Student_3/Quiz_details.html">Quiz</a>
+        <a href="../../Student_4/Sitemap.html">Site Map</a>  
+        <a href="../../Student_4/gallery.html">Gallery</a>
+        <a href="../../Student_3/About_Us.html">About Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuMobile()">
+        <i class="fa fa-bars"></i>
+        </a>
+	</div>
+    <div class="background">
+        <!--go to top-->
+        <button onclick="topFunction()" id="toTopBtn" title="Go to top">&#129093;</button>
+        <!--main container-->
+         <div class="container">
+             <!--main heading-->
+             <h1>La la land</h1>
+             <!--responsive main image-->
+             <picture class="main-image">
+                <source srcset="img/LOTR/LOTR_m.png" media="(max-width: 900px)">
+                <img class="main-image" src="lalla.jpeg" alt="movie poster">
+             </picture>
+             <!--class parah for paragraph-->
+             <div class="parah"><br>&nbsp;&nbsp;&nbsp;&nbsp; "La La Land" is a mesmerizing and enchanting cinematic masterpiece that takes audiences on a dazzling journey into the heart of Los Angeles, where dreams are born and passions ignite. Directed by Damien Chazelle and starring Ryan Gosling and Emma Stone, this modern-day musical extravaganza pays homage to the timeless charm of Hollywood's golden age while infusing it with a contemporary twist.
+                 <!--tooltip main container-->
+                 <wow-tooltip class="tooltip">
+                     <!--tooltip text container-->
+                     <div class="tooltip__label" aria-describedby="tooltip-demo-content" data-tooltip-placeholder></div> 
+                     <!--tooltip-->
+                     <div class="tooltip-dropdown" data-tooltip-dropdown> 
+                         <!--content inside tooltip-->
+                         <div role="tooltip" id="tooltip-demo-content" class="tooltip-dropdown__content">
+                             <!--tooltip image min height should be 400px. class if only needed-->
+                             <img class="tooltip-img" src="hep.jpeg" alt="Audrey Hepburn">
+                             <!--tooltip content-->
+                             &nbsp;&nbsp;&nbsp;&nbsp; Set against the backdrop of the bustling city of stars, "La La Land" weaves a heartfelt and emotional tale of love, ambition, and the pursuit of artistic fulfillment.  Through captivating song and dance numbers, the film navigates the highs and lows of their journey, exploring the complexities of love and the sacrifices demanded by their artistic ambitions.
+                         </div>
+                     </div>
+                 </wow-tooltip>
+             </div>
+             <!--list using an image as the bullet-->
+             <ul style="list-style-image: url(img/POTC/logo.png);">
+                 <li>Directed by : Damien Chazelle </li>
+                 <li>Based on: Original screenplay by Damien Chazelle </li>
+                 <li>Produced by:Fred Berger, Jordan Horowitz, Gary Gilbert, Marc Platt</li>
+                 <li>Distributed by:Summit Entertainment (North America), Lionsgate (International)</li>   
+                 <li>Budget:Approximately $30 million USD</li>
+                 <li> Worldwide Box Office Gross:Approximately $446.1 million USD</li>
+             </ul>
+             <br>
+
+             <h2>Awards and Nomination</h2>
+             <!--list an image as the bullet with anchors inside to jump to topic-->
+             <ul style="list-style-image: url(img/POTC/logo.png);">
+                 <li> Academy Awards (2017):Best Picture - Nominated,Best Director (Damien Chazelle) - Won,Best Actor (Ryan Gosling) - Nominated, Best Actress (Emma Stone) - Won</li>
+                 <li> Golden Globe Awards (2017): Best Motion Picture - Musical or Comedy - Won, Best Director (Damien Chazelle) - Won,Best Actor in a Motion Picture - Musical or Comedy (Ryan Gosling) - Won</li>
+                 <li> BAFTA Awards (2017):Best Film - Nominated, Best Director (Damien Chazelle) - Won,Best Original Screenplay - Nominated</li>
+                 <li> Critics' Choice Movie Awards (2017):Best Picture - Won,Best Director (Damien Chazelle) - Won, Best Actor (Ryan Gosling) - Nominated,Best Actress (Emma Stone) - Won</li>
+             </ul>
+             <br>
+             <h3>Main Cast</h3>
+             <div id="demo">
+                <div class="container-owl">
+                    <div class="row">
+                        <div class="span12">
+                            <div id="owl-demo" class="cast-carousal">
+                                <div class="item">
+                                    <div class="cast"> 
+                                        <img src="ryan.png" alt="Ryan Gosling" width="150">
+                                        <p class="cast-p">Ryan Gosling</p>
+                                        <div class="cast-chara">Sebastian Wilder</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="cast"> 
+                                        <img src="emma.png" alt="Emma Stone" width="150">
+                                        <p class="cast-p">Mia Dolan</p>
+                                        <div class="cast-chara">Paul Varjak</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="cast"> 
+                                        <img src="jksimp.png" alt="J.K.Simmons" width="150">
+                                        <p class="cast-p">J.K.Simmons</p>
+                                        <div class="cast-chara">Bill</div>
+
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="cast"> 
+                                        <img src="john.png" alt="John Legend" width="150">
+                                        <p class="cast-p">John Legend</p>
+                                        <div class="cast-chara">Keith</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="cast"> 
+                                        <img src="caitlin.png" alt="Sonoya Mizuno" width="150">
+                                        <p class="cast-p">Sonoya Mizuno</p>
+                                        <div class="cast-chara">caitlin</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="customNavigation">
+                                <a class="btn prev">Previous</a>
+                                <a class="btn next">Next</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <br>
+             <br>
+             <h2>Main plot</h2>
+             <img class="sub-image" src= "land.jpeg" alt="pic">
+             <div class="parah"><br>&nbsp;&nbsp;&nbsp;&nbsp;"La La Land" is a captivating musical romance set in Los Angeles, following the journey of Mia, an aspiring actress, and Sebastian, a jazz musician. Their chance meeting sparks a whirlwind romance as they support each other in pursuing their dreams and artistic passions. However, as success and opportunities beckon, they face difficult choices that put their relationship and ambitions to the test, leading to a heartfelt exploration of love, sacrifice, and the pursuit of one's true calling.</div>
+             <div class="parah">&nbsp;&nbsp;&nbsp;&nbsp;Amidst the backdrop of vibrant song and dance numbers, "La La Land" weaves a heartfelt narrative of two dreamers navigating the challenges of love and artistry in a city known for both its allure and its heartaches. The film celebrates the joy of following one's passions while grappling with the complexities of compromise and the pursuit of personal fulfillment.</div>
+             <br><br><br><br>
+             <!--heading-->
+             <h2>Behind the scenes</h2>
+             <!--image class sub image-->
+             <img class="sub-image" src= "lalalaal.jpeg" alt="Behind the scenes">
+             <!--content-->
+             <div class="parah"><br>&nbsp;&nbsp;&nbsp;&nbsp; Behind the scenes of "La La Land," the 2016 musical romantic drama, revealed a harmonious blend of talent and creativity that brought this enchanting film to life. Director Damien Chazelle's meticulous casting choices, selecting Ryan Gosling and Emma Stone as the charismatic leads, added a genuine and captivating chemistry to the story. Their shared passion for the project and their remarkable performances infused the film with heart and authenticity.</div>
+             <div class="parah">&nbsp;&nbsp;&nbsp;&nbsp;The film's vibrant and visually striking aesthetic was achieved through meticulous attention to detail in art direction, costume design, and cinematography. Damien Chazelle's direction and vision, coupled with the talent of the musicians and composers, particularly Justin Hurwitz, who composed the Oscar-winning score, elevated the musical experience and made the songs an integral part of the narrative.</div>
+             <!--Did you know?-->
+             <h2>Did you know?</h2>
+             <div class="parah"><br>&nbsp;&nbsp;&nbsp;&nbsp; The film's opening scene, "Another Day of Sun," involved a large ensemble cast performing a complex dance number on a busy Los Angeles freeway. The scene was meticulously rehearsed, and it was shot in one long take.</div>
+             <div class="parah">&nbsp;&nbsp;&nbsp;&nbsp; The film pays homage to classic Hollywood musicals of the past, drawing inspiration from films like "Singin' in the Rain," "An American in Paris," and "The Umbrellas of Cherbourg."</div>
+             <div class="parah">&nbsp;&nbsp;&nbsp;&nbsp; Ryan Gosling learned to play the piano for his role in the film. He performed all the piano sequences in the movie in real time without the use of hand doubles or post-production trickery. </div>
+             <div class="parah">&nbsp;&nbsp;&nbsp;&nbsp; Before "La La Land" found a home at Summit Entertainment, the film was rejected multiple times by major studios. However, after its release, it became a massive critical and commercial success.</div>
+          
+             <!--name-->
+             <p style="text-align: right; font-weight: bold; padding: inherit;">Article by,<br><a style="text-decoration: none; color: #9B2323;" href="../page_editor.html">Surruthisha Sundareswaran</a></p>
+        </div>
+    <footer>
+        <!--footer-->
+        <p>&copy; Copyright 2023, IIT | Page Editor: <a style="text-decoration: none; color: #9B2323;" href="../page_editor.html">Student 1</a></p>
+    </footer>
+    </div>
+    <!-- Theme switcher -->
+    <div class="theme-switcher">
+        <input class="input-theme" type="radio" id="switcher-light" name="theme-switcher" value="light" checked>
+        <label class="theme-label" for="switcher-light">Light</label>
+        <input  class="input-theme" type="radio" id="switcher-dark" name="theme-switcher" value="dark">
+        <label class="theme-label" for="switcher-dark">Dark</label>
+        <input  class="input-theme" type="radio" id="switcher-colorful" name="theme-switcher" value="colorful">
+        <label class="theme-label" for="switcher-colorful">Colorful</label>
+        <input  class="input-theme" type="radio" id="switcher-random" name="theme-switcher" value="random">
+        <label class="theme-label" for="switcher-random">Random</label>
+    </div>
+    <script src="owlCarousal/jquery-1.9.1.min.js"></script> 
+    <script src="owlCarousal/owl.carousel.js"></script>
+    <script src="script.js"></script> 
+    <script>
+        $(document).ready(function() {
+          var owl = $("#owl-demo");
+          owl.owlCarousel({
+          items : 7, 
+          itemsDesktop : [1500,5], 
+          itemsDesktopSmall : [900,3], 
+          itemsTablet: [600,2], 
+          itemsMobile : [410,1]
+
+          });
+
+          // Custom Navigation Events
+          $(".next").click(function(){
+            owl.trigger('owl.next');
+          })
+          $(".prev").click(function(){
+            owl.trigger('owl.prev');
+          })
+          $(".play").click(function(){
+            owl.trigger('owl.play',1000);
+          })
+          $(".stop").click(function(){
+            owl.trigger('owl.stop');
+          })
+
+
+        });
+    </script>
+    
+</body>
+</html>
